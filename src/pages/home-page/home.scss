@@ -1,0 +1,28 @@
+html, body {
+height: 100%;
+margin: 0;
+overflow: hidden;
+background: #6EB1E1;
+
+.navbar-color {
+    background-color: #ff6600 !important;
+    color: black !important;
+}
+}
+
+
+.btn-home {
+    background-color: #ff6600 !important;  
+    border-color: #ff6600 !important;      
+    color: black !important;              
+}
+
+.btn-home:hover {
+    background-color: #cc5200 !important;  
+    border-color: #cc5200 !important;      
+}
+
+.no-scroll {
+    overflow: hidden !important;  
+    height: 100vh !important;      
+  }
