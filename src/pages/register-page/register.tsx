@@ -41,12 +41,12 @@ export default function Register() {
             "Address": address
           });
     
-          const { data } = response.data;
-    
+          const { data } = response;
+          
           if (data.success) {
             toast.success('Cadastro bem-sucedido! Redirecionando para o login...');
             setTimeout(() => {
-              navigate('/login');
+              navigate('/');
             }, 1000);
           } else {
             toast.error('Ocorreu um erro ao tentar se cadastrar.');
